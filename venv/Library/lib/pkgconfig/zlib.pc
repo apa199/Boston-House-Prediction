@@ -1,0 +1,13 @@
+prefix=C:/Users/asus/Documents/End to End Project/Boston-House-Prediction/venv/Library
+exec_prefix=C:/Users/asus/Documents/End to End Project/Boston-House-Prediction/venv/Library
+libdir=C:/Users/asus/Documents/End to End Project/Boston-House-Prediction/venv/Library/lib
+sharedlibdir=C:/Users/asus/Documents/End to End Project/Boston-House-Prediction/venv/Library/lib
+includedir=C:/Users/asus/Documents/End to End Project/Boston-House-Prediction/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
